@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  postgres_server_tier:
+    image: postgres:13.3
+    environment:
+      POSTGRES_DB: "crypto-info"
+      POSTGRES_USER: "user"
+      POSTGRES_PASSWORD: "qwerty"
+    volumes:
+      - ./data:/var/lib/postgresql/data_crypto_info
+    ports:
+      - "5432:5432"
