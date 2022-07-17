@@ -1,4 +1,4 @@
-# crypto-currency-watcher
+# Cryptocurrency watcher
 
 <H2>Шаблинская Татьяна Викторовна</H2>
 
